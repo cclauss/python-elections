@@ -4,13 +4,9 @@ PyYAML==3.11
 Pygments==1.4
 Sphinx==1.1.2
 argparse
-coverage==3.7.1
 docutils==0.8.1
 latimes-calculate==0.1.8
-python-coveralls==2.4.2
 python-dateutil==1.5
-requests==2.2.1
+requests==2.18.4
 sh==1.09
-six==1.6.1
-pep8
-pyflakes
+six==1.11.0
