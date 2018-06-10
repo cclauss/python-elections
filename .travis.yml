@@ -5,7 +5,7 @@ install:
 - pip install -r requirements.txt
 - pip install coverage flake8
 script:
-- flake8 .
+- flake8 --max-line-length=82 elections
 - export TEST_STATE='CA'
 - coverage run tests.py
 after_success:
